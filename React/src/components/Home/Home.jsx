@@ -1,11 +1,11 @@
-import Desk from "../Desk/Desk.jsx";
+import DeskList from "../DeskList/DeskList.jsx";
 
 export default function Home() {
   return (
     <section className="home_section">
       <ul className="desk_list">
         <li>
-          <Desk />
+          <DeskList />
         </li>
       </ul>
     </section>
